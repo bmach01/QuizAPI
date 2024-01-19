@@ -1,9 +1,7 @@
-package com.example.QuizAPI.Controller;
+package com.example.QuizAPI.Controllers;
 
-import com.example.QuizAPI.DAL.Session;
-import com.example.QuizAPI.DAL.SessionRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.example.QuizAPI.DatabaseMapping.Session;
+import com.example.QuizAPI.DatabaseMapping.SessionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,10 +14,8 @@ import java.util.Date;
 @RestController
 @RequestMapping("/sessions")
 public class SessionController {
-
     private final SessionRepository repository;
     private static final int CODE_LENGTH = 5;
-    private static final Logger logger = LoggerFactory.getLogger(SessionController.class);
     @Autowired
     private QuestionController questionController;
 
@@ -27,12 +23,11 @@ public class SessionController {
         this.repository = repository;
     }
 
-
     @PostMapping("/new/{c_id}")
     public ResponseEntity<Session> postSession(@PathVariable String c_id, UriComponentsBuilder ucb) {
         Session session = new Session(
                 null,
-                getNextCode(highestKey()),
+                getNextCode(getHighestKey()),
                 new Date(),
                 c_id,
                 questionController.getRandomOf(CODE_LENGTH, c_id)
@@ -54,8 +49,7 @@ public class SessionController {
         return ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/highestKey")
-    private String highestKey() {
+    private String getHighestKey() {
         Session session = repository.findFirstByOrderByKeyDesc();
 
         if (session == null) return "A".repeat(CODE_LENGTH - 1) + '@';

@@ -1,4 +1,4 @@
-package com.example.QuizAPI.DAL;
+package com.example.QuizAPI.DatabaseMapping;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
