@@ -1,0 +1,208 @@
+[{
+  "_id": {
+    "$oid": "65a94d89e49dcea3426df5c5"
+  },
+  "text": "2 + 2 = ?",
+  "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "correct": 3
+},
+{
+  "_id": {
+    "$oid": "65a94e3fe49dcea3426df5c6"
+  },
+  "text": "2 - 2 = ?",
+  "options": [
+    "0",
+    "-1",
+    "-2",
+    "-3"
+  ],
+  "correct": 0
+},
+{
+  "_id": {
+    "$oid": "65a94e55e49dcea3426df5c7"
+  },
+  "text": "2 * 2 = ?",
+  "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65a94e6ce49dcea3426df5c8"
+  },
+  "text": "2 / 2 = ?",
+  "options": [
+    "2",
+    "1",
+    "3",
+    "7"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65a97564e49dcea3426df5d7"
+  },
+  "text": "2! = ?",
+  "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "correct": 3
+},
+{
+  "_id": {
+    "$oid": "65aa91c29551441ca157daf2"
+  },
+  "text": "6 * 9 = ?",
+  "options": [
+    "42",
+    "54",
+    "63",
+    "72"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65aa91e59551441ca157daf3"
+  },
+  "text": "15 / 3 = ?",
+  "options": [
+    "3",
+    "5",
+    "10",
+    "15"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65aa92049551441ca157daf4"
+  },
+  "text": "8 - 4 = ?",
+  "options": [
+    "2",
+    "4",
+    "6",
+    "8"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65aa92169551441ca157daf5"
+  },
+  "text": "7 + 3 = ?",
+  "options": [
+    "8",
+    "10",
+    "12",
+    "14"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db0e"
+  },
+  "text": "Co jest stolicą Polski?",
+  "options": [
+    "Wrocław",
+    "Gdańsk",
+    "Poznań",
+    "Warszawa"
+  ],
+  "correct": 3
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db0f"
+  },
+  "text": "Co jest stolicą Anglii?",
+  "options": [
+    "Londyn",
+    "Birmingham",
+    "Edynburg",
+    "Dublin"
+  ],
+  "correct": 0
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db10"
+  },
+  "text": "Co jest stolicą Niemiec",
+  "options": [
+    "Dortmund",
+    "Hamburg",
+    "Berlin",
+    "Breslau"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db11"
+  },
+  "text": "Co jest stolicą Francji?",
+  "options": [
+    "Bordeaux",
+    "Paryż",
+    "Nicea",
+    "Calais"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db12"
+  },
+  "text": "Co jest stolicą Włoch",
+  "options": [
+    "Rzym",
+    "Wenecja",
+    "Mediolan",
+    "Neapol"
+  ],
+  "correct": 0
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db13"
+  },
+  "text": "Co jest stolicą Chin?",
+  "options": [
+    "Xi'an",
+    "Szanghaj",
+    "Pekin",
+    "Hong Kong"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65aaa1049551441ca157db14"
+  },
+  "text": "Co jest stolicą Japonii?",
+  "options": [
+    "Kioto",
+    "Osaka",
+    "Jokohama",
+    "Tokio"
+  ],
+  "correct": 3
+}]

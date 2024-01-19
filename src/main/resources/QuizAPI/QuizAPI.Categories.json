@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "65a95338e49dcea3426df5cd"
+  },
+  "title": "Arytmetyka",
+  "desc": "Pytania z podstawowej arytmetyki.",
+  "questions": [
+    {
+      "$oid": "65a94d89e49dcea3426df5c5"
+    },
+    {
+      "$oid": "65a94e3fe49dcea3426df5c6"
+    },
+    {
+      "$oid": "65a94e55e49dcea3426df5c7"
+    },
+    {
+      "$oid": "65a94e6ce49dcea3426df5c8"
+    },
+    {
+      "$oid": "65a97564e49dcea3426df5d7"
+    },
+    {
+      "$oid": "65aa91c29551441ca157daf2"
+    },
+    {
+      "$oid": "65aa91e59551441ca157daf3"
+    },
+    {
+      "$oid": "65aa92049551441ca157daf4"
+    },
+    {
+      "$oid": "65aa92169551441ca157daf5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65aa9ec89551441ca157db09"
+  },
+  "title": "Geografia",
+  "desc": "Proste pytania z zakresu geografii.",
+  "questions": [
+    {
+      "$oid": "65aaa1049551441ca157db14"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db13"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db12"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db11"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db10"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db0f"
+    },
+    {
+      "$oid": "65aaa1049551441ca157db0e"
+    }
+  ]
+}]
