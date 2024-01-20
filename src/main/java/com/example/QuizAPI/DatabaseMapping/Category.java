@@ -10,5 +10,6 @@ public record Category(
         @Id String id,
         String title,
         String desc,
+        String iconLink,
         List<String> questions
 ) {}

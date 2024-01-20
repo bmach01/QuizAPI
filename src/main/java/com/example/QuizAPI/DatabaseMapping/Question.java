@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public record Question(
         @Id String id,
         String text,
+        String imgLink,
         String[] options,
         int correct
 ) {}
