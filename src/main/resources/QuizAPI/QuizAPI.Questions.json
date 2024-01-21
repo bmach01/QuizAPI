@@ -145,7 +145,7 @@
   "_id": {
     "$oid": "65aaa1049551441ca157db10"
   },
-  "text": "Co jest stolicą Niemiec",
+  "text": "Co jest stolicą Niemiec?",
   "options": [
     "Dortmund",
     "Hamburg",
@@ -171,7 +171,7 @@
   "_id": {
     "$oid": "65aaa1049551441ca157db12"
   },
-  "text": "Co jest stolicą Włoch",
+  "text": "Co jest stolicą Włoch?",
   "options": [
     "Rzym",
     "Wenecja",
@@ -203,6 +203,130 @@
     "Osaka",
     "Jokohama",
     "Tokio"
+  ],
+  "correct": 3
+},
+{
+  "_id": {
+    "$oid": "65abc8ba0d96f026f1e56279"
+  },
+  "text": "Jakiego kraju to flaga?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png",
+  "correct": 1,
+  "options": [
+    "Wenezuela",
+    "Brazylia",
+    "Portugalia",
+    "Argentyna"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65abc90f0d96f026f1e5627a"
+  },
+  "text": "Jakiego kraju to flaga?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg",
+  "options": [
+    "Indonezja",
+    "Singapur",
+    "Malezja",
+    "Tajlandia"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65abc94e0d96f026f1e5627b"
+  },
+  "text": "Jakiego kraju to flaga?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/2560px-Flag_of_Bhutan.svg.png",
+  "options": [
+    "Tybet",
+    "Bangladesz",
+    "Birma",
+    "Bhutan"
+  ],
+  "correct": 3
+},
+{
+  "_id": {
+    "$oid": "65abc9f70d96f026f1e56285"
+  },
+  "text": "Jakiego kraju to flaga?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/800px-Flag_of_South_Africa.svg.png",
+  "options": [
+    "RPA",
+    "Mozambik",
+    "Zimbabwe",
+    "Botswana"
+  ],
+  "correct": 0
+},
+{
+  "_id": {
+    "$oid": "65abe5899d4d01365ec660ae"
+  },
+  "text": "Jakie to zwierzę?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Cheetah_Umfolozi_SouthAfrica_MWegmann.jpg",
+  "options": [
+    "Tygrys",
+    "Gepard",
+    "Pantera",
+    "Lew"
+  ],
+  "correct": 1
+},
+{
+  "_id": {
+    "$oid": "65abe5899d4d01365ec660af"
+  },
+  "text": "Które z tych zwierząt nie jest ssakiem?",
+  "options": [
+    "Delfin",
+    "Nietoperz",
+    "Pingwin",
+    "Wieloryb"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65abe5899d4d01365ec660b0"
+  },
+  "text": "Gdzie NIE występuje to zwierze?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Polar_Bear_AdF.jpg",
+  "options": [
+    "Kanada",
+    "Rosja",
+    "Antarktyda",
+    "Dania"
+  ],
+  "correct": 2
+},
+{
+  "_id": {
+    "$oid": "65abe5899d4d01365ec660b1"
+  },
+  "text": "Który z tych węży występuje w Polsce?",
+  "options": [
+    "Gniewosz plamisty",
+    "Czarna Mamba",
+    "Dysfolid",
+    "Kobra królewska"
+  ],
+  "correct": 0
+},
+{
+  "_id": {
+    "$oid": "65abe5899d4d01365ec660b2"
+  },
+  "text": "Jaki to gatunek słonia?",
+  "imgLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/200407_Elephant_9.JPG/1200px-200407_Elephant_9.JPG",
+  "options": [
+    "Słoń afrykański",
+    "Słoń borneański",
+    "Słoń cejloński",
+    "Słoń indyjski"
   ],
   "correct": 3
 }]

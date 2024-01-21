@@ -1,0 +1,129 @@
+[{
+  "_id": {
+    "$oid": "65abdc42692dd6719d71e6c5"
+  },
+  "key": "AAAAA",
+  "creation_date": {
+    "$date": "2024-01-20T14:44:18.882Z"
+  },
+  "category": "65a95338e49dcea3426df5cd",
+  "questions": [
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65a94e3fe49dcea3426df5c6"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65a94e6ce49dcea3426df5c8"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65a97564e49dcea3426df5d7"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aa91c29551441ca157daf2"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aa91e59551441ca157daf3"
+      }
+    }
+  ],
+  "_class": "com.example.QuizAPI.DatabaseMapping.Session"
+},
+{
+  "_id": {
+    "$oid": "65abdc5a692dd6719d71e6c6"
+  },
+  "key": "AAAAB",
+  "creation_date": {
+    "$date": "2024-01-20T14:44:42.644Z"
+  },
+  "category": "65aa9ec89551441ca157db09",
+  "questions": [
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db10"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db11"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65abc90f0d96f026f1e5627a"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65abc94e0d96f026f1e5627b"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65abc9f70d96f026f1e56285"
+      }
+    }
+  ],
+  "_class": "com.example.QuizAPI.DatabaseMapping.Session"
+},
+{
+  "_id": {
+    "$oid": "65ad6c6a5f74e06fa9d4db42"
+  },
+  "key": "AAAAC",
+  "creation_date": {
+    "$date": "2024-01-21T19:11:38.645Z"
+  },
+  "category": "65aa9ec89551441ca157db09",
+  "questions": [
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db11"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db12"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db13"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65aaa1049551441ca157db14"
+      }
+    },
+    {
+      "$ref": "Questions",
+      "$id": {
+        "$oid": "65abc90f0d96f026f1e5627a"
+      }
+    }
+  ],
+  "_class": "com.example.QuizAPI.DatabaseMapping.Session"
+}]
